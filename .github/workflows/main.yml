@@ -1,6 +1,5 @@
 on:
-  pull_request:
-    types: [closed]
+  push:
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
