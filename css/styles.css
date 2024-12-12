@@ -295,7 +295,11 @@ footer {
     /* background-color:#2d2d2d; */
     background-color: #E5E5E5;
 }
-
+@media(max-width:768px) {
+    #first{
+        margin-top: 7.5%;
+    }
+}
 
 
 @media(min-width:768px) {
@@ -309,6 +313,7 @@ footer {
     .polaroid{
         max-width: 101%;
     }
+    
 
     header .header-content {
         position: absolute;
