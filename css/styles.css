@@ -181,8 +181,17 @@ footer {
   }
   
 
+  #four img{
+        max-width: 70%;
+  }
+
 
 @media(min-width:768px) {
+    
+  #four img{
+    max-width: 90%;
+}
+
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
